@@ -12,7 +12,7 @@ pygments: true
 title : Basic->deploy('blog');
 tagline: ベーシックエンジニアブログ
 author :
-  name : 桜庭@ZARU
+  name : BASIC.INC
   email : sakuraba@basicinc.jp
   #github : zaru
   #twitter : zaru
