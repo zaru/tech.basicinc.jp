@@ -14,8 +14,8 @@ tagline: ベーシックエンジニアブログ
 author :
   name : sakuraba@ZARU
   email : sakuraba@basicinc.jp
-  github : zaru
-  twitter : zaru
+  #github : zaru
+  #twitter : zaru
   #feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
