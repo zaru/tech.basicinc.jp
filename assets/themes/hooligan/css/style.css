@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Advent+Pro);
-@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Monda|Oxygen);
 /* Partials */
 /* Theme Vars */
 /* Compass Vars */
@@ -25,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   color: #999;
   text-rendering: optimizelegibility;
-  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Monda', sans-serif;
   /*font-family: 'Pontano Sans', sans-serif;*/
 }
 
