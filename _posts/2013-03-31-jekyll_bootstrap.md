@@ -4,7 +4,7 @@ category : jekyll
 title: Jekyll + Jekyll Bootstrap + Gitでブログを構築する
 tagline: "デプロイは普通のWebサーバ"
 author : sakuraba
-tags : [jekyll, twitter bootstrap, GitHub]
+tags : [jekyll, Twitter Bootstrap, GitHub]
 ---
 {% include JB/setup %}
 

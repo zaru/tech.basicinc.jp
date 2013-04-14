@@ -1,10 +1,10 @@
 ---
 layout: post
-category : unity
+category : Unity
 title: UnityのiOSアプリで、frameworkをビルド時に自動追加する
 tagline: ""
 author : sakuraba
-tags : [unity, ios, ruby]
+tags : [Unity, iOS, Ruby]
 ---
 {% include JB/setup %}
 
