@@ -66,6 +66,10 @@ h2 {
   border-bottom: 1px solid #999;
 }
 
+h3 {
+  padding:10px 0;
+}
+
 /* line 61, ../_sass/_base.scss */
 pre, code {
   color: #ccc;
