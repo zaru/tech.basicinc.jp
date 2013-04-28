@@ -50,7 +50,7 @@ ELBを経由するとhttpのヘッダにアクセス元のIPアドレスしめ�
 こんな感じ。
 後はVirtualHostのCustomLog設定を
 
-	CustomLog "|/usr/sbin/rotatelogs /var/log/httpd/fchikaku_stg/access_log.%Y%m%d 86400" elb-customlog
+	CustomLog "|/usr/sbin/rotatelogs /var/log/httpd/mysite/access_log.%Y%m%d 86400" elb-customlog
 
 としておけばOK
 
@@ -80,6 +80,6 @@ User-Agentを見て「ELB-HealthChecker/1\.0」の場合にはnologという環�
 
 そしてCustomLogの方で
 
-	CustomLog "|/usr/sbin/rotatelogs /var/log/httpd/fchikaku_stg/access_log.%Y%m%d 86400" elb-combined env=!nolog
+	CustomLog "|/usr/sbin/rotatelogs /var/log/httpd/mysite/access_log.%Y%m%d 86400" elb-combined env=!nolog
 
 とするとnologが設定されているとログが出力されなくなります。
