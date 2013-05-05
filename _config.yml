@@ -24,6 +24,10 @@ authors:
     gravatar: 1e68801494505bd0e0ce67e2e1398af3
     twitter: zaru
     github: zaru
+  kobayashi:
+    display_name: 小林芳樹
+    email: kobayashi@basicinc.jp
+    twitter: ykyk1218
 
 
 # The production_url is only used when full-domain names are needed
