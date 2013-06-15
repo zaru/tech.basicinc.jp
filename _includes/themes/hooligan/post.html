@@ -36,11 +36,17 @@
       {% if author.twitter %}
         <span> / <a href="http://twitter.com/{{ author.twitter }}">Twitter</a></span>
       {% endif %}
+      {% if author.facebook %}
+        <span> / <a href="http://www.facebook.com/{{ author.facebook }}">Facebook</a></span>
+      {% endif %}
       {% if author.github %}
         <span> / <a href="http://github.com/{{ author.twitter }}">GitHub</a></span>
       {% endif %}
       {% if author.gravatar %}
         <br><img src="http://0.gravatar.com/avatar/{{ author.gravatar }}" width="60" height="60" alt="">
+      {% endif %}
+      {% if author.profile %}
+        <p>{{ author.profile }}</p>
       {% endif %}
     </section>
     <section>
