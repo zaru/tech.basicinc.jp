@@ -30,7 +30,11 @@ authors:
     display_name: 小林芳樹
     email: kobayashi@basicinc.jp
     twitter: ykyk1218
-
+  ohtake:
+    display_name: shuhei.ohtake
+    email: otake@basicinc.jp
+    profile: 株式会社ベーシック グラフィック・ウェブデザイナー。
+    site: '<a href="http://www.takeshu.net/">竹集</a>'
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -40,7 +44,7 @@ authors:
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://tech.basicinc.jp
+production_url : "http://tech.basicinc.jp"
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
