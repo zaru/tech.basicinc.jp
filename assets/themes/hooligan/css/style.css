@@ -584,3 +584,13 @@ div.sidebar section img.icon {
     margin: 0;
     border: none;
 }
+
+.content table {
+}
+.content table th,.content table td {
+  padding:5px;
+  border:3px double #eee;
+}
+.content table th{
+  background-color: #222;
+}
