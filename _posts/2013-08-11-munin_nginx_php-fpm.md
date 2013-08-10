@@ -4,7 +4,7 @@ category : munin
 title: nginx + PHP-FPMをmuninでリソース監視する
 tagline: 監視サーバと監視されるサーバ複数対応
 author : sakuraba
-tags : [munin,nginx,PHP-FPM]
+tags : [munin, nginx, PHP-FPM]
 ---
 {% include JB/setup %}
 
