@@ -15,7 +15,6 @@ body {
   text-shadow: 1px 1px 1px #000;
   height: 100%;
   font-family: 'Oxygen', sans-serif;
-  font-size: 14px;
 }
 
 /* line 26, ../_sass/_base.scss */
@@ -67,7 +66,18 @@ h2 {
 }
 
 h3 {
-  padding:10px 0;
+  margin:10px 0;
+  padding:5px 10px;
+  background-color: #444;
+  color:#ddd;
+  border-radius: 5px;
+}
+
+h4 {
+  font-size:20px;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-bottom: 1px dashed #666;
 }
 
 /* line 61, ../_sass/_base.scss */
@@ -586,11 +596,15 @@ div.sidebar section img.icon {
 }
 
 .content table {
+  margin:10px 0;
 }
 .content table th,.content table td {
-  padding:5px;
-  border:3px double #eee;
+  padding:10px 10px;
+  border:3px double #ccc;
 }
 .content table th{
   background-color: #222;
+}
+.content .span8 p{
+	font-size:16px;
 }
