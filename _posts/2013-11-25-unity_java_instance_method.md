@@ -4,7 +4,7 @@ category : Unity
 title: UnityからAndroid Javaのインスタンスメソッドを呼び出す
 tagline: 
 author : sakuraba
-tags : [Unity, MySQL]
+tags : [Unity, Android]
 ---
 {% include JB/setup %}
 
