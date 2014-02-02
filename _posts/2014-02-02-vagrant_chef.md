@@ -34,6 +34,10 @@ $ vagrant up
 ```
 
 これであっという間に仮想環境のできあがり！
+```
+vagrant init
+```
+を実行するとカレントディレクトリにVagrantfileが作成されてます。各種設定はこのVagrantfileに記述します。
 
 仮想環境に入るには
 ```
@@ -45,21 +49,23 @@ vagrant ssh
 下記コマンドを実行します。
 
 ```bash
-$ vagrant plugin install vagrant-omnibus
-$ vagrant plugin install vagrant-BerkShelf
 $ gem i berkshelf
 ```
+これだけ！
+
 またBerksfileというファイルが必要になるので、Vagrantfileと同ディレクトリに作成しましょう。中身は
 ```
 site :opscode
 ```
 とします。
 
-このファイルにインストールするアプリケーションをcookbookとして指定します。
+このBerksfileファイルにインストールするアプリケーションをcookbookとして指定します。
 
 cookbookは自分で作成することもできますが、既に公開されているcookbookがあるのでそちらを使っていく方が楽。
 
 このcookbookを公開しているコミュニティとしてopscodeというのがあって、そこのcookbookを使いますよーという宣言になります。
+
+こうしたサードパーティのcookbookを使用するにはGoogleを駆使して調べて見た結果、Berkshelfを使うのが楽そうな感じしました。
 
 [http://github.com/opscode-cookbooks/](https://github.com/opscode-cookbooks/) 
 
@@ -87,8 +93,15 @@ gitとvimも必要になるので、いれておきました。apacheはapache2�
 ### Vagrantfileの編集 
 ここまで設定できたら次にVagrantfileを触ります。
 
+とその前に必要なpluginをインストールしておきます。
+
+```bash
+$ vagrant plugin install vagrant-omnibus
+$ vagrant plugin install vagrant-berkshelf
+```
+
 実際にBerkshelfで指定したアプリケーションのインストールや設定をするには仮想環境上でChefが動いてごにょごにょします。
-なのでChefを仮想環境に入れる必要があるので、Vagrantfileに
+なのでChefを仮想環境に入れる必要があるので、vagrant-omnibusプラグインをインストールしてVagrantfileに
 
 ```ruby
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
@@ -113,7 +126,7 @@ end
 ```
 
 
-最終的にVagrantfileはこちら！！(`・ω・´)
+最終的なVagrantfileはこちら！！(`・ω・´)
 
 ```ruby
 VAGRANTFILE_API_VERSION = "2"
@@ -191,4 +204,4 @@ vagrant ssh-config
 実際にはもう少し細かい設定ができるので、そこまでしておきたいなーと思ってます。
 例えばapacheのドキュメントルートやpostgresqlでのデータを保存するディレクトリのパスなどの設定等です。
 
-まだはっきり理解しきれてないところとかあるので、もう少しいろいろいじって簡単に開発環境をつくれる体制にしたい。
+まだはっきり理解しきれてないところとかあるので、もう少しいろいろいじって簡単に開発環境をつくれるようにしたい！
