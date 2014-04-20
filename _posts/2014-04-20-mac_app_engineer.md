@@ -160,13 +160,10 @@ HomeBrewにはBrewfileというものを用意することで一発でインス�
 tap homebrew/versions || true
 tap phinze/homebrew-cask || true
 tap homebrew/binary || true
-
 # Brew Update
 update || true
-
 # Brew Cask
 install brew-cask || true
-
 # Packages
 install --disable-etcdir zsh || true
 install vim || true
@@ -175,7 +172,6 @@ install curl || true
 install wget || true
 install dnsmasq || true
 install composer || true
-
 # Cask Packages
 cask install iterm2 || true
 cask install alfred || true
@@ -206,7 +202,7 @@ cask install sitesucker || true
 cask install google-japanese-ime || true
 ```
 
-bundleコマンドでゴニョゴニョインストールしてくれる。それなりに時間がかかるので辛抱強く待つ。エンジニアは待つことが仕事。
+bundleコマンドでゴニョゴニョインストールしてくれる。それなりに時間がかかるので辛抱強く待つ。エンジニアは待つことが仕事。ちなみに、Brewfileに余計な空行をいれるとbrewのヘルプメッセージが出てエラーになってしまうので、詰めておくこと。
 
 ```
 $ brew bundle
