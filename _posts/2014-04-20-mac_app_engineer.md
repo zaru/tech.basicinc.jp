@@ -48,7 +48,7 @@ tags : [Mac]
 - GoogleChrome
 - YoruFukurou  | **定番Twitterクライアント**
 - kobito  | **Qiita対応Markdownエディタ**
-- VitualBox
+- virtualbox
 - [Vagrant](#vagrant)
 - SublimeText
 - [PHPStorm](#phpstorm)
@@ -187,7 +187,7 @@ cask install firefox || true
 cask install google-chrome || true
 cask install yorufukurou || true
 cask install kobito || true
-cask install vitualbox || true
+cask install virtualbox || true
 cask install vagrant || true
 cask install sublime-text || true
 cask install phpstorm || true
