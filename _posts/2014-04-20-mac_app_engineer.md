@@ -122,31 +122,31 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 #### HomeBrew本体のアップデート
 
 ```
-$ homebrew update
+$ brew update
 ```
 
 #### パッケージを探す
 
 ```
-$ homebrew search パッケージ名
+$ brew search パッケージ名
 ```
 
 #### パッケージをインストール
 
 ```
-$ homebrew install パッケージ名
+$ brew install パッケージ名
 ```
 
 #### インストールされたパッケージ一覧
 
 ```
-$ homebrew list
+$ brew list
 ```
 
 #### パッケージをアンインストール
 
 ```
-$ homebrew remove パッケージ名
+$ brew remove パッケージ名
 ```
 
 ### Brewfileで一発インストール
