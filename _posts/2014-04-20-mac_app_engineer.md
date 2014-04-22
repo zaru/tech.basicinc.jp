@@ -348,6 +348,10 @@ Evernoteに買収されてから著しく機能がダウングレードしたス
 
 - [Monosnap](http://monosnap.com/welcome)
 
+どうやら、Skitchの過去バージョンが下記URLから手に入るらしい。
+
+- [http://www.oldversion.jp/mac/skitch-1-0-12](http://www.oldversion.jp/mac/skitch-1-0-12)
+
 ![skitch.png](/assets/img/2014-04-20-skitch.png)
 
 ### <a name="dash"> Dash </a>
