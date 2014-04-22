@@ -81,13 +81,13 @@ tags : [Mac]
 
 まぁ、そんなにないんだけど登録しておくと良い。
 
-- GitHub
-- はてな
-- Qiita
-- TestFlight
-- Gravatar
-- ChatWork
-- Skype
+- [GitHub](https://github.com/)
+- [はてな](http://www.hatena.ne.jp/)
+- [Qiita](http://qiita.com/)
+- [TestFlight](https://www.testflightapp.com/)
+- [Gravatar](https://ja.gravatar.com/)
+- [ChatWork](http://www.chatwork.com/ja/)
+- [Skype](http://www.skype.com/ja/)
 
 ## 以下、各アプリの紹介
 
@@ -444,6 +444,10 @@ Macで唯一と言ってもいいGUIのリネームアプリ。時々、大量�
 ### <a name="pocket"> Pocket </a>
 
 あとで読むを支援してくれるサービス。各種あるあとで読む系で今一番良いサービス。MacでもPocketアプリが出ているが、どちらかというとiPhoneとかで使う。スマートニュースとかグノシーとかもPocket連携しているので、いろんなニュース元から気になる記事をどんどん追加していって、暇な時に読み返すと良い。
+
+個人的には、iPhoneアプリのReederに「はてブ」の気になるキーワード新着エントリー一覧をRSSで登録し、Pocketに送信、時間が空いた時にじっくり読むっていうスタイル。
+
+- [Pocket](http://getpocket.com/)
 
 ![pocket.png](/assets/img/2014-04-20-pocket.png)
 
