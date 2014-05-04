@@ -37,7 +37,7 @@ $ mysqldump -u user -t DB名 テーブル名A テーブル名B > dump.sql
 結構よく使う。create table文のみ。レコード情報は必要ない場合。「--no-data」オプションを使う。「-d」の短縮でもOKだけど、なんかdropしそうで怖いので、あえて--no-dataの方を使っている。
 
 ```
-$ mysqldump -u user --no-date DB名 > dump.sql
+$ mysqldump -u user --no-data DB名 > dump.sql
 ```
 
 ## whereで指定したレコードのみダンプしたい
