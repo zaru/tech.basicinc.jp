@@ -1,7 +1,7 @@
 ---
 layout: post
 category : Selenium
-title: Selenium2とPHPUnitで自動テスト
+title: Selenium2とPHPUnitでMac/Winブラウザ自動テスト
 tagline: 
 author : sakuraba
 tags : [Selenium, PHPUnit]
